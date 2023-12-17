@@ -39,7 +39,7 @@
         android:layout_marginTop="20dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="User name"
-        android:textSize="14dp"
+        android:textSize="16dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/signTitle" />
@@ -58,8 +58,40 @@
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:hint="Name"
-            android:inputType="text"
-            android:textSize="14dp" />
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Your phone number"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/til_name" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_phone">
+
+        <EditText
+            android:id="@+id/et_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:hint="Number"
+            android:inputType="phone" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -71,10 +103,10 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/montserrat_regular"
         android:text="Your password"
-        android:textSize="14dp"
+        android:textSize="16dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/til_name" />
+        app:layout_constraintTop_toBottomOf="@id/til_phone" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/til_password"
@@ -87,7 +119,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_password">
 
         <EditText
-            android:id="@+id/et_phone"
+            android:id="@+id/et_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
@@ -100,7 +132,7 @@
         android:id="@+id/tv_signUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginHorizontal="24dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="40dp"
         android:fontFamily="@font/montserrat_regular"
@@ -115,7 +147,7 @@
         android:id="@+id/btn_signIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="28dp"
         android:background="@drawable/gradiant_button_backgrount"
         android:fontFamily="@font/montserrat_semi_bold_600"
         android:text="Sign in"
