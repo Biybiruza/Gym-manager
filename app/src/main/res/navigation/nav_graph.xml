@@ -20,6 +20,7 @@
             app:destination="@id/signInFragment"
             app:popUpToInclusive="true"
             app:popUpTo="@id/splashFragment"/>
+
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
