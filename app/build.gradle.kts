@@ -53,6 +53,7 @@ dependencies {
 
     //room database
     implementation("androidx.room:room-runtime:2.6.1")
+    implementation("com.google.android.gms:play-services-cast-framework:21.4.0")
     annotationProcessor("androidx.room:room-compiler:2.6.1")
 
     // To use Kotlin annotation processing tool (kapt)
