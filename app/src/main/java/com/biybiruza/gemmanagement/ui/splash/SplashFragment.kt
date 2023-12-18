@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import android.view.View
 import androidx.navigation.fragment.findNavController
 import com.biybiruza.gemmanagement.R
+import com.biybiruza.gemmanagement.appDatabase.AppDatabase
 import com.biybiruza.gemmanagement.databinding.FragmentSplashBinding
 import com.biybiruza.gemmanagement.entities.Users
 

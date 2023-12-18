@@ -58,12 +58,8 @@ dependencies {
     // To use Kotlin annotation processing tool (kapt)
     kapt("androidx.room:room-compiler:2.6.1")
 
-
-    implementation("com.github.florent37:runtime-permission:1.1.2")  //for runtime permission
     implementation ("com.github.bumptech.glide:glide:4.16.0")   //show images
-    debugImplementation ("com.amitshekhar.android:debug-db:1.0.6")  //view database
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2") // for viewModelScope
-    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2") // for lifecycleScope
     implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2") // for lifecycleScope
 
     testImplementation("junit:junit:4.13.2")
